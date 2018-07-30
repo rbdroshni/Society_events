@@ -1,0 +1,33 @@
+/* #event-list{
+    margin-left: 25px;
+    display: inline;
+}
+
+#hall-list{
+    display: -webkit-inline-box;
+    margin-left: 16px;
+}
+
+#selected-member-list{
+    display: -webkit-inline-box;
+    margin-left: 16px;
+}
+
+#selected-date{
+    display: -webkit-inline-box;
+    margin-left: 16px;
+}
+
+#selected-time{
+    display: -webkit-inline-box;
+    margin-left: 16px;
+}
+
+#common-submit{
+    display: -webkit-inline-box;
+    margin-left: 16px;
+} */
+
+#members-checkbox{
+    float: right;
+}

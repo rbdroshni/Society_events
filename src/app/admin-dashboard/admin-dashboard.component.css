@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#admin-main{margin-top: 60px;background-color: tomato}
+#admin-main ul{list-style: none; background: blue;text-align: center;color: white;}
+#admin-main li{ padding: 20px;font-weight: bold;}
+#admin-main li:hover{border-left: skyblue 5px solid;background-color: black;}
+
+/* admin-data */
+#admin-data{background: orange;}

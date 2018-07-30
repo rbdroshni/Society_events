@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#user-main{margin-top: 60px;background-color: tomato}
+#user-main ul{list-style: none; background: blue;text-align: center;color: white;}
+#user-main li{ padding: 20px;font-weight: bold;}
+#user-main li:hover{border-left: skyblue 5px solid;background-color: black;}
+
+/* user-data */
+#user-data{background: orange;}

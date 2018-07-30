@@ -1,0 +1,3 @@
+#headernav div li {padding-left: 25px;}
+
+#headernav div ul li :hover{border-bottom:2px skyblue solid;}
