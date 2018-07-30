@@ -1,0 +1,76 @@
+<div>
+  <div class="form-group row">
+    <label for="example-text-input" class="col-2 col-form-label">Name</label>
+    <div class="col-4">
+      <input class="form-control" type="text" placeholder="Enter your name" id="example-text-input">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="example-search-input" class="col-2 col-form-label">Phone</label>
+    <div class="col-4">
+      <input class="form-control" type="search" placeholder="Enter your Phone number" id="example-search-input" maxlength="10">
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label for="example-email-input" class="col-2 col-form-label">Email</label>
+    <div class="col-4">
+      <input class="form-control" type="email" placeholder="Enter your E-mail id" id="example-email-input">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="example-tel-input" class="col-2 col-form-label">Event Type</label>
+    <div class="col-4">
+        <select class="custom-select">
+            <option value="default">Select an Event</option>
+            <option *ngFor="let events of commonEvents">{{events}}</option>
+        </select>
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label for="example-password-input" class="col-2 col-form-label">Hall Type</label>
+    <div class="col-3">
+        <select class="custom-select">
+            <option value="default">Select a Hall</option>
+            <option *ngFor="let halls of commonHalls">{{halls}}</option>
+        </select>
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label for="example-number-input" class="col-2 col-form-label">Members</label>
+    <div class="col-2">
+        <div class="list-group" id="society-members">
+            <a  class="list-group-item active">Select Members</a>
+            <a  class="list-group-item">Ajay Srivastava <input type="checkbox" class="pull-right" id="members-checkbox"></a>
+            <a  class="list-group-item">Shankar Mahanjan <input type="checkbox" class="pull-right" id="members-checkbox"></a>
+            <a  class="list-group-item">Sanjay Dutt <input type="checkbox" class="pull-right" id="members-checkbox"></a>
+            <a  class="list-group-item">Sunil Kumar <input type="checkbox" class="pull-right" id="members-checkbox"></a>
+            </div>
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label for="example-date-input" class="col-2 col-form-label">Date</label>
+    <div class="col-2">
+      <input class="form-control" type="date"  id="example-date-input">
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label for="example-time-input" class="col-2 col-form-label">Time</label>
+    <div class="col-2">
+      <input class="form-control" type="time"  id="example-time-input">
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label for="example-color-input" class="col-2 col-form-label">Submit</label>
+    <div class="col-1">
+        <button type="button" class="btn btn-success btn-lg">Submit</button>
+    </div>
+  </div>
+</div>
